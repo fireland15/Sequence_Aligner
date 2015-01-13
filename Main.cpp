@@ -12,6 +12,16 @@
 #include "Multi_Sequence.h"
 #include "NJ.h"
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+//#define READ_FROM_FASTA
+=======
+#define READ_FROM_FASTA
+//#define READ_FROM_INPUT_SEQ_TXT
+>>>>>>> Stashed changes
+
+>>>>>>> Stashed changes
 using namespace std;
 
 int main() {
