@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{b29e03b5-5f82-424a-9683-a329f735e612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\LD3">
+      <UniqueIdentifier>{6d5c3ba6-4b86-420b-968f-dba5a2cb8a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\LD4">
+      <UniqueIdentifier>{11e2da5b-2b68-4fe4-9585-be2332c60469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\LD5">
+      <UniqueIdentifier>{c3377346-03a6-4765-b8e5-c2de39b98745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\SD3">
+      <UniqueIdentifier>{e2a8a810-d53e-4426-905f-b90a4173d0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\SD7">
+      <UniqueIdentifier>{db7baaec-9f0b-4681-a8b8-528daeac4ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\SD10">
+      <UniqueIdentifier>{f1c6313b-b9bb-408d-b166-5b92e608b4d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi_Sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_MultiAlign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Multi_Sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_MultiAlign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\LD3\sequence (1).fasta">
+      <Filter>Data\LD3</Filter>
+    </None>
+    <None Include="Data\LD3\sequence (2).fasta">
+      <Filter>Data\LD3</Filter>
+    </None>
+    <None Include="Data\LD3\sequence.fasta">
+      <Filter>Data\LD3</Filter>
+    </None>
+    <None Include="Data\LD4\sequence (1).fasta">
+      <Filter>Data\LD4</Filter>
+    </None>
+    <None Include="Data\LD4\sequence (2).fasta">
+      <Filter>Data\LD4</Filter>
+    </None>
+    <None Include="Data\LD4\sequence (3).fasta">
+      <Filter>Data\LD4</Filter>
+    </None>
+    <None Include="Data\LD4\sequence.fasta">
+      <Filter>Data\LD4</Filter>
+    </None>
+    <None Include="Data\LD5\sequence (1).fasta">
+      <Filter>Data\LD5</Filter>
+    </None>
+    <None Include="Data\LD5\sequence (2).fasta">
+      <Filter>Data\LD5</Filter>
+    </None>
+    <None Include="Data\LD5\sequence (3).fasta">
+      <Filter>Data\LD5</Filter>
+    </None>
+    <None Include="Data\LD5\sequence (4).fasta">
+      <Filter>Data\LD5</Filter>
+    </None>
+    <None Include="Data\LD5\sequence.fasta">
+      <Filter>Data\LD5</Filter>
+    </None>
+    <None Include="Data\SD3\sequence (7).fasta">
+      <Filter>Data\SD3</Filter>
+    </None>
+    <None Include="Data\SD3\sequence (8).fasta">
+      <Filter>Data\SD3</Filter>
+    </None>
+    <None Include="Data\SD3\sequence (9).fasta">
+      <Filter>Data\SD3</Filter>
+    </None>
+    <None Include="Data\SD7\sequence (11).fasta">
+      <Filter>Data\SD7</Filter>
+    </None>
+    <None Include="Data\SD7\sequence (12).fasta">
+      <Filter>Data\SD7</Filter>
+    </None>
+    <None Include="Data\SD7\sequence (13).fasta">
+      <Filter>Data\SD7</Filter>
+    </None>
+    <None Include="Data\SD7\sequence (14).fasta">
+      <Filter>Data\SD7</Filter>
+    </None>
+    <None Include="Data\SD7\sequence (15).fasta">
+      <Filter>Data\SD7</Filter>
+    </None>
+    <None Include="Data\SD7\sequence (16).fasta">
+      <Filter>Data\SD7</Filter>
+    </None>
+    <None Include="Data\SD7\sequence (17).fasta">
+      <Filter>Data\SD7</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (1).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (2).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (3).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (4).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (5).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (6).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (7).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (8).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (9).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+    <None Include="Data\SD10\sequence (10).fasta">
+      <Filter>Data\SD10</Filter>
+    </None>
+  </ItemGroup>
+</Project>

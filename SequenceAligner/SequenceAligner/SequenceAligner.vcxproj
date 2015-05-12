@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{725EFAD7-9BEA-46F6-9671-3C77185FF7B9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SequenceAligner</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Multi_Sequence.cpp" />
+    <ClCompile Include="NW_MultiAlign.cpp" />
+    <ClCompile Include="Sequence.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Multi_Sequence.h" />
+    <ClInclude Include="NJ.h" />
+    <ClInclude Include="NW_MultiAlign.h" />
+    <ClInclude Include="Sequence.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\LD3\sequence (1).fasta" />
+    <None Include="Data\LD3\sequence (2).fasta" />
+    <None Include="Data\LD3\sequence.fasta" />
+    <None Include="Data\LD4\sequence (1).fasta" />
+    <None Include="Data\LD4\sequence (2).fasta" />
+    <None Include="Data\LD4\sequence (3).fasta" />
+    <None Include="Data\LD4\sequence.fasta" />
+    <None Include="Data\LD5\sequence (1).fasta" />
+    <None Include="Data\LD5\sequence (2).fasta" />
+    <None Include="Data\LD5\sequence (3).fasta" />
+    <None Include="Data\LD5\sequence (4).fasta" />
+    <None Include="Data\LD5\sequence.fasta" />
+    <None Include="Data\SD10\sequence (1).fasta" />
+    <None Include="Data\SD10\sequence (10).fasta" />
+    <None Include="Data\SD10\sequence (2).fasta" />
+    <None Include="Data\SD10\sequence (3).fasta" />
+    <None Include="Data\SD10\sequence (4).fasta" />
+    <None Include="Data\SD10\sequence (5).fasta" />
+    <None Include="Data\SD10\sequence (6).fasta" />
+    <None Include="Data\SD10\sequence (7).fasta" />
+    <None Include="Data\SD10\sequence (8).fasta" />
+    <None Include="Data\SD10\sequence (9).fasta" />
+    <None Include="Data\SD3\sequence (7).fasta" />
+    <None Include="Data\SD3\sequence (8).fasta" />
+    <None Include="Data\SD3\sequence (9).fasta" />
+    <None Include="Data\SD7\sequence (11).fasta" />
+    <None Include="Data\SD7\sequence (12).fasta" />
+    <None Include="Data\SD7\sequence (13).fasta" />
+    <None Include="Data\SD7\sequence (14).fasta" />
+    <None Include="Data\SD7\sequence (15).fasta" />
+    <None Include="Data\SD7\sequence (16).fasta" />
+    <None Include="Data\SD7\sequence (17).fasta" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
